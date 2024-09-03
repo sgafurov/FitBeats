@@ -1,10 +1,11 @@
 import Link from "next/link";
 import React from "react";
+import Header from "./components/header";
 
 export default function Page() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-600 to-blue-500 text-white font-sans">
-      <header className="p-4 md:p-6">
+      {/* <header className="p-4 md:p-6">
         <nav className="flex justify-between items-center">
           <h1 className="text-2xl md:text-3xl font-bold">FitBeats AI</h1>
           <div className="space-x-4">
@@ -16,7 +17,8 @@ export default function Page() {
             </button>
           </div>
         </nav>
-      </header>
+      </header> */}
+      <Header />
 
       <main className="container mx-auto px-4 py-12 md:py-24">
         <div className="text-center mb-12">
