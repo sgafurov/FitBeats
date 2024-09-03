@@ -28,7 +28,7 @@ export default function Page() {
             fitness rhythm
           </p>
           <button className="bg-white text-purple-600 px-8 py-3 rounded-full text-lg font-bold hover:bg-opacity-90 transition duration-300">
-            <Link href="/get-started">Get Started</Link>
+            <Link href="/sign-up">Get Started</Link>
           </button>
         </div>
 
