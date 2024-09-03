@@ -5,7 +5,7 @@ export default function Page() {
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-500 to-purple-600">
       <div className="bg-white p-8 rounded-lg shadow-md w-96">
         <h1 className="text-3xl font-bold mb-6 text-center text-gray-800 font-roboto">
-          AI Workout Music
+          Log In
         </h1>
         <form className="space-y-4">
           <div>

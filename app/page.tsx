@@ -9,10 +9,10 @@ export default function Page() {
           <h1 className="text-2xl md:text-3xl font-bold">FitBeats AI</h1>
           <div className="space-x-4">
             <button className="bg-white text-purple-600 px-4 py-2 rounded-full font-semibold hover:bg-opacity-90 transition duration-300">
-              Sign Up
+              <Link href="/sign-up">Sign Up</Link>
             </button>
             <button className="bg-transparent border border-white px-4 py-2 rounded-full font-semibold hover:bg-white hover:text-purple-600 transition duration-300">
-              Log In
+              <Link href="/log-in">Log In</Link>
             </button>
           </div>
         </nav>
