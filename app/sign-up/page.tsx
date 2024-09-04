@@ -11,7 +11,10 @@ export default function Page() {
 
           <form className="space-y-4">
             <div>
-              <input type="text" name="name" placeholder="Full Name" className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-purple-600" />
+              <input type="text" name="firstName" placeholder="First Name" className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-purple-600" />
+            </div>
+            <div>
+              <input type="text" name="lastName" placeholder="Last Name" className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-purple-600" />
             </div>
             <div>
               <input type="email" name="email" placeholder="Email" className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-purple-600" />
