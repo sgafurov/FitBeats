@@ -1,6 +1,7 @@
 "use client"
 import React, { useState } from "react";
 import { supabase } from "../utils/supabase-client";
+import { useRouter } from 'next/navigation'
 
 interface FormData {
     firstName: string;
@@ -13,6 +14,8 @@ interface FormData {
 }
 
 export default function ClientForm() {
+    const router = useRouter(); // Initialize useRouter
+
     const [formData, setFormData] = useState<FormData>({
         firstName: "",
         lastName: "",
@@ -66,6 +69,8 @@ export default function ClientForm() {
 
             alert("User registered successfully!");
             console.log("Data from registering user into supabase table:", data);
+            
+            router.push("/dashboard");
 
         } catch (error) {
             // Type guard to handle unknown error type
